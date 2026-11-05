@@ -1,0 +1,1 @@
+"""Application bootstrap and cross-cutting configuration."""

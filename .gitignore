@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment / tooling
+.venv/
+.tmp/
+.pip-cache/
+build/
+dist/
+*.spec
+
+# Runtime data
+*.db
+*.db-wal
+*.db-shm
+*.log
+logs/
+data/
+
+# Temporary visual QA output (documentation shots live in docs/screenshots)
+artifacts/
+docs/screenshots/_*.png
+docs/screenshots/software.png
+docs/screenshots/settings.png
+docs/screenshots/history.png
+
+# OS / editor / environment
+.DS_Store
+Thumbs.db
+.env
+.idea/
+.vscode/
+*.bak
+coverage.xml
+htmlcov/

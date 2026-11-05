@@ -1,0 +1,1 @@
+"""Storage domain logic, independent from any Qt widget."""
