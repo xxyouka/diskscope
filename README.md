@@ -9,6 +9,8 @@
 一个本地优先的 Windows 磁盘空间分析、缓存清理与软件卸载工具。  
 真实数据、暖灰界面、明确的安全边界，不联网、不上传。
 
+<sub>简体中文 · <a href="README.en.md">English</a></sub>
+
 [![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-2F2D28?style=flat-square&logo=windows&logoColor=white)](#)
 [![Python 3.12](https://img.shields.io/badge/Python-3.10%2B%20%C2%B7%203.12%20tested-3776AB?style=flat-square&logo=python&logoColor=white)](#)
 [![PySide6](https://img.shields.io/badge/PySide6-6.7%2B-41CD52?style=flat-square&logo=qt&logoColor=white)](#)
@@ -252,20 +254,6 @@ DiskScope/
 
 ---
 
-## English overview
+## 其他语言
 
-**DiskScope (盘析)** is a local-first Windows 10/11 disk analyzer and safe cleanup desktop app built with Python and PySide6.
-
-It focuses on explainability before deletion: real volume data, directory treemaps, on-demand file analysis, SQLite scan caches, duplicate detection, safe cleanup plans, Windows Recycle Bin integration, official software uninstallers, and a separate high-risk flow for deleting a complete WeChat account directory.
-
-Safety is the default: no silent deletion, no telemetry, no cloud uploads, recycle-bin-first execution, per-file validation, explicit confirmation for permanent deletion, and an audit trail in local SQLite.
-
-```powershell
-git clone https://github.com/xxyouka/diskscope.git
-cd diskscope
-py -3.12 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe main.py
-```
-
-MIT licensed. Contributions and safety reviews are welcome.
+- [English README](README.en.md)
